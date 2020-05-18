@@ -28,7 +28,7 @@ affiliation: "Institut Teknologi Bandung / INArxiv"
 
 # Bidang petrologi/petrografi/mineralogi
 
-### Contoh 1
+## Contoh 1
 
 Saya menerima contoh data petrologi dan petrografi ini dari kolega saya, [Reynaldy Fifaris](https://scholar.google.co.id/citations?hl=en&user=20KtMUQAAAAJ&view_op=list_works&sortby=pubdate). Data tersebut berasal dari AAPG Datapages yang dibagikan kepada publik ([Tautan pengunduhan](http://www.datapages.com/files/ds10)). Ukuran berkas (dalam format `zip`) adalah 200 MB. Data tersebut merupakan data telaah ptrografi berupa foto-foto sayatan tipis yang telah diolah dan disajikan sebagai tutorial labotarorium. Tutorial tersebut disusun oleh [Kitty Miliken](https://scholar.google.com/citations?user=RNFK9SEAAAAJ&hl=en). 
 
@@ -43,3 +43,44 @@ Saya menerima contoh data petrologi dan petrografi ini dari kolega saya, [Reynal
 - Sayangnya saya belum menemukan keduanya.
 - Berkas `zip` berisi: perangkat lunak pemutar tutorial dan dataset. Seluruh dataset berupa foto sayatan tipis, tanpa indikasi lokasi dan koordinat, minimum dalam bentuk tabel dataset. 
 - Pada dasarnya kalaupun dokumen tutorial dan dataset adalah berasal dari KM, maka tutorial tetap harus merujuk kepada dataset, bisa dalam bentuk tautan ke dataset.  
+- Struktur dokumen akan terlihat seperti ini.
+
+![gbr-struktur-tutorial](/Users/erwin/Downloads/IN-PROCESS/open-data-geologi/gbr-struktur-tutorial.png)
+
+
+
+
+
+## Contoh 2
+
+Akan ditambahkan.
+
+
+
+# Bidang Paleontologi/mikropaleontologi
+
+## Contoh 1
+
+- Berikut ini adalah makalah tentang fosil buaya purba yang ditulis oleh [Tennant dan Mannion (2014)](https://peerj.com/articles/599/) yang terbit di Jurnal [PEERJ](peerj.com). 
+- Pada dasarnya, makalah ini membahas [deskripsi temuan fosil spesies baru](https://peerj.com/articles/599/#supp-2) oleh penulis yang sama.  Di dalam makalah tersebut penulis menyampaikan [data mentah berupa hasil pengukuran morfometri fosil](https://dfzljdn9uc3pi.cloudfront.net/2014/599/1/S1_morphometric_data.xlsx) (dalam format `xlsx`). 
+- Jadi deskripsi fosil dipisahkan dari makalah utama, begitu pula data pengukuran morfometrinya. 
+- Tidak hanya itu, foto-foto fosilnya pun diunggah sebagai file terpisah ([https://dfzljdn9uc3pi.cloudfront.net/2014/599/1/fig-3-full.png](https://dfzljdn9uc3pi.cloudfront.net/2014/599/1/fig-3-full.png)). Saat saya google nama spesies, maka foto dari makalah ini muncul dalam hasil pencarian. Artinya foto fosil dapat ditemukan secara terpisah, sehingga dapat menambah peluang makalah utama ditemukan oleh calon pembaca. Penemuan fosil ini beserta lokasinya telah didaftarkan di basis data [Zoobank](http://zoobank.org/References/B7CC4367-4203-4AED-8C30-2D7E4E71665D).  
+- Jadi kalau kita petakan posisi makalahnya akan terlihat seperti ini.
+
+ ![gbr-struktur-makalah-peerj](/Users/erwin/Downloads/IN-PROCESS/open-data-geologi/gbr-struktur-makalah-peerj.png)
+
+## Contoh 2
+
+- Contoh ini saya ambil dari repositori data [Pangea](Pangea.de) yang merupakan repositori data kebumian dan lingkungan. Repositori ini dikelola oleh Alfred Wegener Institute, Helmholtz Center for Polar and Marine Research (AWI) dan the Center for Marine Environmental Sciences, University of Bremen (MARUM). 
+
+- Keunikan repositori ini adalah hanya menerima data yang memiliki koordinat geospasial yang jelas. Sebelum terbit, data ditelaah oleh tim terutama untuk aspek apakah data dapat diplot dengan benar. Penulis pun diminta membuat abstrak tentang mengapa data diambil, bagaimana caranya, dan apa target luarannya.
+
+- Mengunggah data ke repositori ini gratis untuk siapapun ([Contoh data dari saya dkk](https://doi.pangaea.de/10.1594/PANGAEA.862987)). Seluruh data yang diunggah berlisensi CC-BY (Creative Commons Attribution), yang berarti **pembaca dapat menggunakan ulang material secara bebas dengan kewajiban menyitirnya**.
+
+- Data yang saya contohkan berjudul **[Hessler, Ines](https://doi.pangaea.de/10.1594/PANGAEA.816694#); Young, Martin; [Holzwarth, Ulrike](https://doi.pangaea.de/10.1594/PANGAEA.816694#); [Mohtadi, Mahyar](https://doi.pangaea.de/10.1594/PANGAEA.816694#); [Lückge, Andreas](https://doi.pangaea.de/10.1594/PANGAEA.816694#); [Behling, Hermann](https://doi.pangaea.de/10.1594/PANGAEA.816694#) (2013):**  Organic-walled dinoflagellate cysts analysis and statistical analysis of 116 surface sediment samples from the eastern Indian Ocean. *PANGAEA*, https://doi.org/10.1594/PANGAEA.816694.
+
+- Data di atas terhubung dengan makalah utama ini: Hessler, I et al. (2013): Imprint of  eastern Indian Ocean surface oceanography on modern organic-walled  dinoflagellate cyst assemblages. *Marine Micropaleontology*, **101**, 89-105, https://doi.org/10.1016/j.marmicro.2013.02.005. 
+
+- Kebetulan makalah utamanya sendiri terbit di jurnal non-OA. Artinya, pembaca tetap bisa mengakses dataset, walaupun makalah utamanya tidak dapat diakses. Bila [halaman utama makalahnya dibuka](https://doi.org/10.1016/j.marmicro.2013.02.005), maka pembaca dapat membaca bagian di bawah ini. Jangan lupa membaca tulisan paling bawah `Copyright 2013 Elsevier B.V. All rights reserved`, yang artinya pembaca harus minta izin ke pemegang Hak Cipta (bukan penulis, tetapi Elsevier) kalau ingin menggunakan ulang bagian (bahkan menyitirnya). Untung penulisnya mengunggah datanya ke tempat di luar otoritas penerbit.
+
+   ![gbr-section-dataavailability](/Users/erwin/Downloads/IN-PROCESS/open-data-geologi/gbr-section-dataavailability.png)
