@@ -28,4 +28,18 @@ affiliation: "Institut Teknologi Bandung / INArxiv"
 
 # Bidang petrologi/petrografi/mineralogi
 
-Saya menerima contoh 
+### Contoh 1
+
+Saya menerima contoh data petrologi dan petrografi ini dari kolega saya, [Reynaldy Fifaris](https://scholar.google.co.id/citations?hl=en&user=20KtMUQAAAAJ&view_op=list_works&sortby=pubdate). Data tersebut berasal dari AAPG Datapages yang dibagikan kepada publik ([Tautan pengunduhan](http://www.datapages.com/files/ds10)). Ukuran berkas (dalam format `zip`) adalah 200 MB. Data tersebut merupakan data telaah ptrografi berupa foto-foto sayatan tipis yang telah diolah dan disajikan sebagai tutorial labotarorium. Tutorial tersebut disusun oleh [Kitty Miliken](https://scholar.google.com/citations?user=RNFK9SEAAAAJ&hl=en). 
+
+> *Kitty Milliken* is a Senior Research Scientist at the Bureau of  Economic Geology at UT Austin. She received a B.A. in geology at  Vanderbilt University and completed her graduate work (M.A. and Ph.D) at UT Austin. Her research focuses on the integration of imaging and  chemical analysis to decipher the chemical and mechanical histories of  sedimentary rocks. Kitty served as Co-Editor of the Journal of  Sedimentary Research (2004-2008).
+
+**Catatan**:
+
+- Informasi cara merujuk tutorial tidak disajikan dengan jelas. Mestinya ada bagian `Bagaimana cara merujuk` dalam halaman utama.
+- Jadi akan ada dua tingkat rujukan:
+  - rujukan kepada tutorial
+  - rujukan kepada data
+- Sayangnya saya belum menemukan keduanya.
+- Berkas `zip` berisi: perangkat lunak pemutar tutorial dan dataset. Seluruh dataset berupa foto sayatan tipis, tanpa indikasi lokasi dan koordinat, minimum dalam bentuk tabel dataset. 
+- Pada dasarnya kalaupun dokumen tutorial dan dataset adalah berasal dari KM, maka tutorial tetap harus merujuk kepada dataset, bisa dalam bentuk tautan ke dataset.  
