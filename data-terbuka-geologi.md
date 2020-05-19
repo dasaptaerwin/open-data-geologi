@@ -4,6 +4,10 @@ author: "Dasapta Erwin Irawan"
 affiliation: "Institut Teknologi Bandung / INArxiv"
 ---
 
+# Data terbuka di bidang geologi
+
+Oleh: Dasapta Erwin Irawan (ITB / RINarxiv)
+
 # Pendahuluan
 
 - Tujuan: 
@@ -53,7 +57,7 @@ Saya menerima contoh data petrologi dan petrografi ini dari kolega saya, [Reynal
 
 ## Contoh 2
 
-Akan ditambahkan.
+Contoh lain akan ditambahkan.
 
 
 
